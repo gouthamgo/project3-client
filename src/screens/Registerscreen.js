@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 
 import axios from "axios";
@@ -14,7 +15,7 @@ export default function Registerscreen() {
   const[success, setsuccess]=useState(false) 
   async function register(){
 
-      if(password!=cpassword)
+      if(password!==cpassword)
       {
           alert("passwords not matched")
       }

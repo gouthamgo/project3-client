@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect , useState } from 'react'
 import axios from "axios";
 
@@ -57,6 +58,7 @@ function Bookingscreen({match}) {
         }
         
         
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 
@@ -112,7 +114,7 @@ function Bookingscreen({match}) {
 
                             <div className="col-md-6">
                                     <h1>{room.name}</h1>
-                                    <img src={room.imageurls[0]} className='bigimg'/>
+                                    <img src={room.imageurls[0]} className='bigimg' alt ="big"/>
                             </div>
 
 

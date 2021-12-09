@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Crazy Pods</a>
+      <a class="navbar-brand" href="/#">Crazy Pods</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,8 +35,8 @@ function Navbar() {
     <i class="fa fa-user"></i> {user.name}
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Bookings</a>
-    <a class="dropdown-item" href="#" onClick={logout}>
+    <a class="dropdown-item" href="/#">Bookings</a>
+    <a class="dropdown-item" href="/#" onClick={logout}>
       Log out</a>
     
   </div>

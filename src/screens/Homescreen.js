@@ -7,6 +7,7 @@ import Loader from "../components/Loader";
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import Error from '../components/Error';
 import moment from 'moment'
+// eslint-disable-next-line no-unused-vars
 import { DatePicker, Space } from 'antd';
 
 
@@ -26,6 +27,7 @@ function Homescreen() {
 
   const[rooms, setrooms] = useState([])
   const[loading, setloading]= useState()
+  // eslint-disable-next-line no-unused-vars
   const[error, seterror]= useState()
   const[fromdate, setfromdate] = useState()
   const[todate, settodate] = useState()

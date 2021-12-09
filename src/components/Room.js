@@ -17,7 +17,7 @@ function Room({room, fromdate, todate}) {
     return (
         <div className="row bs" data-aos='fade-up' > 
         <div className="col-md-4">
-            <img src={room.imageurls[0]} className="smalling" />
+            <img src={room.imageurls[0]} className="smalling" alt="small" />
             </div>
             <div className="col-md-7" >
             <h1>{room.name}</h1>

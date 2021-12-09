@@ -12,6 +12,7 @@ export default function Loginscreen() {
     const [password, setpassword] = useState("");
     const[loading, setloading]=useState(false)
     const[error, seterror]=useState(false)
+    // eslint-disable-next-line no-unused-vars
     const[success, setsuccess]=useState(false)    
 
     useEffect(() => {

@@ -4,6 +4,7 @@ import HashLoader from "react-spinners/HashLoader";
 
 function Loader() {
 
+    // eslint-disable-next-line no-unused-vars
     let [loading, setloading] = useState(true);
   
     return (

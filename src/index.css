@@ -160,7 +160,7 @@ h2{
 
 @keyframes drive{
   from{transform:translateX(-100px)}
-  to{transform:translateX(1000px)}
+  to{transform:translateX(1500px)}
 }
 @keyframes drive_2{
   from{transform:translateX(1200px)}
