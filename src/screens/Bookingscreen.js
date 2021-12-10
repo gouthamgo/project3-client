@@ -2,6 +2,8 @@
 import React, { useEffect , useState } from 'react'
 import axios from "axios";
 
+
+
 import Loader from "../components/Loader";
 import Error from '../components/Error';
 
@@ -95,8 +97,15 @@ function Bookingscreen({match}) {
         }
 
         try {
+            setloading(true);
+
             const result = await axios.post('/api/bookings/bookroom' , bookingDetails)
+            setloading(false);
+            
+
         } catch (error) {
+            setloading(false)
+            
             
         }
 
