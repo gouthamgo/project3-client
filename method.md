@@ -5,7 +5,7 @@
 ## add bootstrap in the index.html page
 
 
-- Lets say we got components(reusable), scrrens(lets say these are the stable pages)
+- Lets say we got components(reusable), screens(lets say these are the stable pages)
 
 - through the menu to the right side - so add ml-auto class to the ul tag 
 
@@ -164,6 +164,24 @@ router.post("/getroombyid", async (req, res) => {
 // export to server as it is the entry for node application 
 module.exports = router;
 ```
+
+```
+// import the rooms route
+const roomsRoute = require('./routes/roomsRoute')
+const usersRoute = require('./routes/usersRoute')
+const bookingsRoute = require('./routes/bookingsRoute')
+
+
+
+// access for the rooms route- to go and check the endpoints in rooms route- to fecth the rooms in database
+app.use('/api/rooms', roomsRoute)
+app.use('/api/users', usersRoute)
+app.use('/api/bookings', bookingsRoute)
+```
+
+- we can use postmon to check the post data
+
+## use proxy server to send requests from frontend to backend
 
 
 
