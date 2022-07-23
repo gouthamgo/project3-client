@@ -21,11 +21,11 @@ function Landingscreen() {
      </div>
 
     <img src={"images/hotel.png"} className="hotel" alt="hotel"/>
-    <img src="images/car1.png" class="car1" alt="hotel"/>
-    <img src="images/car2.png" class="car2" alt="hotel"/>
-    <img src="images/car3.png" class="car3" alt="hotel"/>
-    <img src="images/car4.png" class="car4" alt="hotel"/>
-    <img src="images/dog.gif" class="dog_1" alt="hotel"/>
+    <img src="images/car1.png" className="car1" alt="hotel"/>
+    <img src="images/car2.png" className="car2" alt="hotel"/>
+    <img src="images/car3.png" className="car3" alt="hotel"/>
+    <img src="images/car4.png" className="car4" alt="hotel"/>
+    <img src="images/dog.gif" className="dog_1" alt="hotel"/>
     
 
   </div>
