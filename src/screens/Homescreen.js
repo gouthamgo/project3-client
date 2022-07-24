@@ -38,7 +38,7 @@ function Homescreen() {
         try {
           setloading(true);
 
-          const data =  (await axios.get("/api/rooms/getallrooms")).data;
+          const data =  (await axios.get("https://project3-server-1.herokuapp.com/api/rooms/getallrooms")).data;
           // get the objects- in an array
           console.log(data);
           setrooms(data);
